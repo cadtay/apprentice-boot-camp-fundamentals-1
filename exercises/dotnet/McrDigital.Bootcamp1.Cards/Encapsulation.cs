@@ -2,7 +2,8 @@ namespace McrDigital.Bootcamp1.Cards {
   using System;
 
   public class Encapsulation {
-    static void Main(string[] args) {
+    public static void Main(string[] args) {
+            HelloWorld.HWorld();
       var encapsulation = new Encapsulation();
       var deckInOrder = encapsulation.GetCards();
       foreach (var card in deckInOrder) {
